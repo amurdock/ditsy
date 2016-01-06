@@ -10,8 +10,7 @@ WORKING_ROOT=$(pwd)
 WORKING_SOURCE=$WORKING_ROOT/angular2
 WORKING_TARGET=$WORKING_ROOT/target
 DITSY_TAG=$(git describe --tags 2>/dev/null)
-#$ANGULAR_REPO_ROOT=$(mktemp -d -t angular)
-ANGULAR_REPO_ROOT=/var/folders/tc/j6hqn94j04ggvwq_4h0yclsc0000gn/T/angular.9qhXHgdw
+ANGULAR_REPO_ROOT=$(mktemp -d -t angular)
 ANGULAR_REPO_BASE=modules/angular2
 ANGULAR_DITS_FILES=('src/core/di.ts' 'manual_typings/globals-es6.d.ts' 'manual_typings/globals.d.ts')
 
@@ -19,7 +18,7 @@ rm -rf $WORKING_SOURCE
 tsd install
 
 cd $ANGULAR_REPO_ROOT
-# && git clone https://github.com/angular/angular.git .
+git clone https://github.com/angular/angular.git .
 ANGULAR_TAG=$(git describe --tags)
 
 if [ "$DITSY_TAG" != "$ANGULAR_TAG" ]; then
@@ -38,8 +37,6 @@ if [ "$DITSY_TAG" != "$ANGULAR_TAG" ]; then
 fi
 
 cd $WORKING_ROOT
-# && rm -rf $ANGULAR_REPO_ROOT
-
+rm -rf $ANGULAR_REPO_ROOT
 tsc
-
 rewrite $WORKING_TARGET
