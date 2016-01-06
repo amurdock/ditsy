@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "module": "commonjs",
+    "rootDir": "angular2",
+    "sourceMap": true,
+    "sourceRoot": ".",
+    "target": "es5",
+    "outDir": "target",
+    "moduleResolution": "classic"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

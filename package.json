@@ -1,0 +1,21 @@
+{
+  "name": "ditsy",
+  "version": "0.0.1",
+  "description": "Ditsy",
+  "main": "target/src/core/di.js",
+  "scripts": {
+    "postinstall": "ln -s target node_modules/angular2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amurdock/ditsy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amurdock/ditsy/issues"
+  },
+  "homepage": "https://github.com/amurdock/ditsy#readme"
+}
