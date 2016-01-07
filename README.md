@@ -20,7 +20,7 @@ With the prerequisites installed, simply:
 
 ### Prerequisites
 
-Before installing `ditsy`, make sure that both TypeScript and TSD are installed globally.
+Before building `ditsy`, make sure that both TypeScript and TSD are installed globally.
 
 `npm install typescript -g`
 
@@ -34,13 +34,7 @@ Assuming the prerequisites are met, run:
 
 > Be aware the build scripts were a couple of hours work spent seeing if the extraction was even possible. They haven't been tested thoroughly and to be honest I'd be surprised if they worked on anything other that my laptop. I will be keeping an eye on changes in the angular2 di module and releasing as they become available. If I miss any ping me and I'll do a build as soon as I can.
 
-> I've purposely left out dependencies on *typescript* and *tsd* so you'll need to install these globally yourself for the time being.
-
-`npm install -g typescript`
-`npm install -g tsd`
-
 ## Examples
-
 
 ### ES6
 
