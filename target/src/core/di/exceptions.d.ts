@@ -1,4 +1,4 @@
-import { BaseException, WrappedException } from 'angular2/src/facade/exceptions';
+import { BaseException, WrappedException } from '../../facade/exceptions';
 import { Key } from './key';
 import { Injector } from './injector';
 /**

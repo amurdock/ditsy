@@ -1,3 +1,4 @@
+/// <reference path="../../../angular2/manual_typings/globals.d.ts" />
 export declare const IS_DART: boolean;
 declare var _global: BrowserNodeGlobal;
 export { _global as global };

@@ -1,5 +1,5 @@
 import { ResolvedProvider, Provider, Dependency } from './provider';
-import { Type } from 'angular2/src/facade/lang';
+import { Type } from '../../facade/lang';
 import { Key } from './key';
 export declare const UNDEFINED: Object;
 /**

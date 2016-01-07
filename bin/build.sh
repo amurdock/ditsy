@@ -38,5 +38,6 @@ fi
 
 cd $WORKING_ROOT
 rm -rf $ANGULAR_REPO_ROOT
+rewriteBefore $WORKING_SOURCE
 tsc
-rewrite $WORKING_TARGET
+rewriteAfter $WORKING_TARGET

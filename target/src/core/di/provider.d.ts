@@ -1,4 +1,4 @@
-import { Type } from 'angular2/src/facade/lang';
+import { Type } from '../../facade/lang';
 import { Key } from './key';
 /**
  * `Dependency` is used by the framework to extend DI.
