@@ -3,8 +3,8 @@
 source ./bin/extract.sh
 source ./bin/rewrite.sh
 
-tsd --version >/dev/null 2>&1 || { echo >&2 "tsd must be install for this build to work. Aborting."; exit 1; }
-tsc --version >/dev/null 2>&1 || { echo >&2 "tsc must be install for this build to work. Aborting."; exit 1; }
+tsd --version >/dev/null 2>&1 || { echo >&2 "tsd must be installed globally for this build to work. Install with: 'npm install tsd -g'. Aborting."; exit 1; }
+tsc --version >/dev/null 2>&1 || { echo >&2 "tsc must be installed globally for this build to work. Install with: 'npm install typescript -g'. Aborting."; exit 1; }
 
 WORKING_ROOT=$(pwd)
 WORKING_SOURCE=$WORKING_ROOT/angular2
