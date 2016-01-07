@@ -8,7 +8,7 @@ A shameless extract of the [dependency injection](https://github.com/angular/ang
 
 > There is a plan to extract DI library from the angular2 repo in the future, but this is not the case today.
 
-Therefore I strongly advise you to move to the support angular2 dependency injection module if and when it's extracted from the main code base.
+Therefore I strongly advise you to move to the supported angular2 dependency injection module if and when it's extracted by the angular team.
 
 ## Install
 
