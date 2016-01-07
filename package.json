@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/amurdock/ditsy/issues"
   },
-  "homepage": "https://github.com/amurdock/ditsy#readme"
+  "homepage": "https://github.com/amurdock/ditsy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-angular2-annotations": "^5.0.0",
+    "babel-plugin-transform-class-properties": "^6.4.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-strip-types": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "reflect-metadata": "^0.1.3"
+  }
 }
