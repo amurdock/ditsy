@@ -44,6 +44,6 @@ Assuming the prerequisites are met, run:
 
 ### TypeScript
 
-`coming soon`
+`tsc --module commonjs --experimentalDecorators examples/typescript.ts && node examples/typescript.js`
 
 <sub><sup>Why ditsy ... **d**enendency**i**injection**t**ype**s**cripty, not good with names ;)</sup></sub>

@@ -4,6 +4,7 @@
   "description": "Ditsy",
   "main": "target/src/core/di.js",
   "scripts": {
+    "postinstall": "tsd install",
     "build": "bin/build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

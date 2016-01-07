@@ -40,8 +40,6 @@ function rewriteAfter() {
       IMPORT_PATH=$(echo $IMPORT_PATH | sed -e 's/[\/&]/\\&/g')
       RELATIVE_PATH=$(echo $RELATIVE_PATH | sed -e 's/[\/&]/\\&/g')
 
-      echo "from $IMPORT_PATH to $RELATIVE_PATH in $DI_TS_FILE"
-
       sed -i '' -E "s/$IMPORT_PATH/$RELATIVE_PATH/g" $DI_TS_FILE
     done
   done
