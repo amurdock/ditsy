@@ -41,3 +41,6 @@ rm -rf $ANGULAR_REPO_ROOT
 rewriteBefore $WORKING_SOURCE
 tsc
 rewriteAfter $WORKING_TARGET
+
+#
+./node_modules/.bin/dts-generator --name ditsy --project . --out ./target/ditsy.d.ts
