@@ -26,7 +26,7 @@ Before building `ditsy`, make sure that both TypeScript and TSD are installed gl
 
 `npm install tsd -g`
 
-## Building Ditsy
+## Building
 
 Assuming the prerequisites are met, run:
 
@@ -41,9 +41,5 @@ Assuming the prerequisites are met, run:
 [examples/es6.js](examples/es6.js):
 
 `./node_modules/.bin/babel-node examples/es6.js`
-
-### TypeScript
-
-`tsc --module commonjs --experimentalDecorators examples/typescript.ts && node examples/typescript.js`
 
 <sub><sup>Why ditsy ... **d**enendency**i**injection**t**ype**s**cripty, not good with names ;)</sup></sub>
