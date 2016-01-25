@@ -26,7 +26,7 @@ Before building `ditsy`, make sure that both TypeScript and TSD are installed gl
 
 `npm install tsd -g`
 
-## Building
+### Building
 
 Assuming the prerequisites are met, run:
 
