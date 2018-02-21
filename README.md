@@ -1,3 +1,5 @@
+# Deprecated
+
 # ditsy
 
 A shameless extract of the [dependency injection](https://github.com/angular/angular/tree/master/modules/angular2/src/core/di) module used within the [angular2](https://angular.io/) development platform.
